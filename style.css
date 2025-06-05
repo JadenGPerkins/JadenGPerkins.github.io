@@ -89,19 +89,19 @@ h2{
 }
 
 #portfolio li {
-  background: #73a0df;
+  background: #fff;
   padding: 10px;
   border-radius: 10px;
   margin-bottom: 10px;
 }
 
 #portfolio li:hover {
-  background: #991515;
+  background: #eee;
 }
 
 #portfolio a {
   text-decoration: none;
-  color: #db4141;
+  color: #454545;
 }
 /* responsive web design */
 @media screen and (min-width: 120px) and (max-width: 1080px) {
