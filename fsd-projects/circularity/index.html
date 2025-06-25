@@ -37,5 +37,30 @@
             })();
         </script>
     </body>
+    //todo 1
+    var circle
+    var cicles = []
+    
+    //todo 2
+    function drawCircle() {
+        circle = draw.randomCircleInArena(canvas, true, true, "#999", 2)
+        physikz.addRandomVelocity(circle, 5, 5);
+        view.addChild(circle);
+        circles.push(circle);
 
+    }
+    //todo 3
+    drawCircle();
+    drawCircle();
+    drawCircle();
+    drawCircle();
+    drawCircle();
+
+    //todo 4
+    physikz.updatePosition(/* bracket notation to access a circle from the circles array */);
+    physikz.updatePosition(/* bracket notation to access a circle from the circles array */);
+    physikz.updatePosition(/* bracket notation to access a circle from the circles array */);
+    physikz.updatePosition(/* bracket notation to access a circle from the circles array */);
+    physikz.updatePosition(/* bracket notation to access a circle from the circles array */);
+    
 </html>
